@@ -269,6 +269,77 @@ a{color:inherit}
 @media (max-width:760px){.sources{columns:1}}
 .sources a{display:block;break-inside:avoid;padding:4px 0;color:var(--muted);text-decoration:none;border-bottom:1px dashed var(--line)}
 .sources a:hover{color:var(--yellow)}
+/* brand · أول إيد */
+.b-hero{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+@media (max-width:860px){.b-hero{grid-template-columns:1fr}}
+.b-line{font:900 clamp(56px,11vw,128px)/1.2 var(--ar);color:var(--dark);margin:18px 0 22px}
+.b-line em{font-style:normal;background:var(--yellow);padding:0 .12em;border-radius:6px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.b-tape{background:var(--yellow);color:var(--dark);transform:rotate(-4deg);padding:14px 0;overflow:hidden;white-space:nowrap;font:900 26px var(--ar);box-shadow:0 18px 30px -18px rgba(0,0,0,.45);border-top:2px dashed rgba(22,33,45,.25);border-bottom:2px dashed rgba(22,33,45,.25);transform-origin:right}
+.b-tape span{display:inline-block;animation:tape 18s linear infinite}
+@keyframes tape{to{transform:translateX(50%)}}
+.b-sub{font-size:clamp(22px,3vw,28px);font-weight:800;margin:56px 0 18px}
+.b-kit{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:900px){.b-kit{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.b-kit{grid-template-columns:1fr}}
+.b-el{background:var(--paper2);border-radius:16px;padding:18px;min-width:0;border-top:4px solid var(--yellow)}
+.b-el i{font:600 11.5px var(--mono);font-style:normal;color:#9A7A00;direction:ltr;display:block;text-align:right;letter-spacing:.06em}
+.b-el b{display:block;font:800 18px/1.45 var(--ar);margin:6px 0}
+.b-el span{font-size:14px;color:var(--dmuted)}
+.b-mocks{display:grid;grid-template-columns:240px 240px 1fr;gap:22px;margin-top:30px;align-items:start}
+@media (max-width:900px){.b-mocks{grid-template-columns:1fr 1fr}.b-cast{grid-column:1/-1}}
+@media (max-width:520px){.b-mocks{grid-template-columns:1fr}.b-phone{max-width:260px;margin-inline:auto!important}}
+.b-phone{margin:0;aspect-ratio:9/16;background:var(--ink);border-radius:24px;border:6px solid #070C12;display:flex;flex-direction:column;overflow:hidden;position:relative;box-shadow:0 30px 50px -28px rgba(0,0,0,.6)}
+.b-phone figcaption{position:absolute;bottom:-34px;right:0;left:0;text-align:center;font-size:12.5px;color:var(--dmuted)}
+.b-mocks{padding-bottom:34px}
+.b-top{padding:22px 14px 12px;text-align:center;font:800 17px/1.5 var(--ar);color:var(--text)}
+.b-top em{font-style:normal;color:var(--yellow)}
+.b-vid{flex:1;background:radial-gradient(70% 60% at 50% 45%,#2B3E52,#101922);display:grid;place-items:center}
+.b-box{width:62%;aspect-ratio:1.35;background:linear-gradient(160deg,#D9D4C7,#B9B2A2);border-radius:6px;position:relative;box-shadow:0 14px 24px -12px rgba(0,0,0,.7)}
+.b-boxtape{position:absolute;top:38%;right:-8%;left:-8%;background:var(--yellow);color:var(--dark);font:900 14px var(--ar);text-align:center;padding:5px 0;transform:rotate(-6deg)}
+.b-bot{display:flex;justify-content:space-between;align-items:center;padding:12px 16px 18px;font:800 15px var(--ar);color:var(--yellow)}
+.b-bot b{color:var(--text);font-weight:800}
+.b-bot .num{font-size:22px;color:var(--yellow)}
+.b-end{background:var(--navy)}
+.b-endin{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:18px;text-align:center}
+.b-endin img{width:78px;height:78px;border-radius:50%;box-shadow:0 0 0 2px var(--line)}
+.b-endin p{font:900 22px var(--ar);color:var(--text)}
+.b-endin p em{font-style:normal;color:var(--yellow)}
+.b-endin small{font-size:13px;color:var(--muted);line-height:1.6}
+.b-endtape{background:var(--yellow);color:var(--dark);font:800 13px var(--ar);padding:4px 14px;transform:rotate(-3deg);margin-top:6px}
+.b-cast{min-width:0}
+.b-cast h3{margin-bottom:12px}
+.b-person{background:#fff;border:1px solid #E1DDD3;border-radius:14px;padding:14px 16px;margin-bottom:10px}
+.b-person b{display:block;font-family:var(--ar);font-size:16px}
+.b-person span{font-size:14px;color:var(--dmuted)}
+.lex{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media (max-width:900px){.lex{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.lex{grid-template-columns:1fr}}
+.lex div{background:var(--dark);color:var(--text);border-radius:14px;padding:14px 16px;min-width:0}
+.lex b{display:block;font:800 16px/1.5 var(--ar);color:var(--yellow)}
+.lex span{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+.lex .lex-nick{grid-column:1/-1;background:var(--yellow)}
+.lex .lex-nick b{color:var(--dark);font-size:19px}
+.lex .lex-nick span{color:#4A4020}
+.fmts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media (max-width:900px){.fmts{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.fmts{grid-template-columns:1fr}}
+.fmt{background:#fff;border:1px solid #E1DDD3;border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.fmt .fh{display:flex;justify-content:space-between;align-items:center}
+.fmt .fh .num{font-size:40px;line-height:1;color:var(--dark)}
+.fmt .tag.y{border-color:var(--dark);color:var(--dark);background:var(--yellow)}
+.fmt h3{font-size:20px}
+.fmt p{font-size:14px;color:var(--dmuted)}
+.fhook{margin-top:auto;font:700 14.5px/1.5 var(--ar);border-right:4px solid var(--yellow);padding:6px 10px;background:var(--paper)}
+.b-wf{margin-top:40px;background:var(--dark);color:var(--text);border-radius:20px;padding:26px;display:grid;grid-template-columns:1fr 1.3fr;gap:26px}
+@media (max-width:860px){.b-wf{grid-template-columns:1fr}}
+.b-wf h3{font-size:clamp(28px,4vw,40px);font-weight:900}
+.b-wf h3 em{font-style:normal;color:var(--yellow)}
+.b-wf p{color:var(--muted);margin-top:8px;font-size:15px}
+.b-wf .eyebrow b{background:var(--yellow);color:var(--ink)}
+.b-wf ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.b-wf li{font-size:14.5px;color:#C6CFDA;border-bottom:1px solid var(--line);padding-bottom:10px}
+.b-wf li b{display:block;font-family:var(--ar);color:var(--yellow);font-size:16px}
+@media print{.b-tape span{animation:none!important}.fmt,.b-el,.lex div,.b-person,.b-phone,.b-wf{break-inside:avoid}}
 footer{background:#070C12;color:var(--muted);font-size:13px;padding-block:24px}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 :focus-visible{outline:2px solid var(--yellow);outline-offset:3px}
@@ -317,7 +388,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 </header>
 
 <nav class="toc" aria-label="أقسام الخطة"><div class="wrap">
-  <a href="#audit">الوضع الحالي</a><a href="#market">السوق</a><a href="#idea">الفكرة الكبيرة</a><a href="#videos">6 أفكار فيديو</a><a href="#design">التصميمات</a><a href="#calendar">كالندر 30 يوم</a><a href="#ads">الإعلانات</a><a href="#shoot">التصوير والمطلوب</a>
+  <a href="#audit">الوضع الحالي</a><a href="#market">السوق</a><a href="#idea">الفكرة الكبيرة</a><a href="#brand">هوية أول إيد</a><a href="#videos">6 أفكار فيديو</a><a href="#design">التصميمات</a><a href="#calendar">كالندر 30 يوم</a><a href="#ads">الإعلانات</a><a href="#shoot">التصوير والمطلوب</a>
 </div></nav>
 
 <!-- AUDIT -->
@@ -400,10 +471,139 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   </div>
 </section>
 
+<!-- BRAND -->
+<section class="paper" id="brand">
+  <div class="wrap">
+    <div class="eyebrow"><b>04</b> BRAND · REELS IDENTITY</div>
+    <div class="b-hero">
+      <div>
+        <p class="b-line" data-anim="rise">أول <em>إيد</em>.</p>
+        <p class="lead" style="margin-bottom:0">الهوية الثابتة لريلز الصحوة. العداد هو الدليل، و"أول إيد" هو الاسم اللي الناس هتفتكره: إنت أول إيد تلمس الجهاز، والختم بيتفتح قدامك. نفس الجملة، ونفس الصوت، ونفس الإطار في كل ريل، لحد ما الناس تقولها هي قبلنا.</p>
+      </div>
+      <div class="b-tape" data-anim="tape" aria-hidden="true"><span>أول إيد · أول إيد · أول إيد · أول إيد · أول إيد · أول إيد · أول إيد · أول إيد</span></div>
+    </div>
+
+    <h3 class="b-sub">6 عناصر بتتكرر في كل فيديو</h3>
+    <div class="b-kit">
+      <div class="b-el" data-anim="rise"><i>01 · LINE</i><b>"الصحوة · أول إيد"</b><span>التوقيع اللي بيقفل كل ريل وكل تصميم، ومعاه هاشتاج ثابت #أول_إيد.</span></div>
+      <div class="b-el" data-anim="rise" data-d="60"><i>02 · SOUND</i><b>صوت فتح الختم</b><span>أول ثانية في كل ريل: صوت البرشامة وهي بتتقطع. بيبقى التوقيع الصوتي للصحوة، والناس تعرفه من غير ما تبص.</span></div>
+      <div class="b-el" data-anim="rise" data-d="120"><i>03 · TAPE</i><b>الشريط الأصفر</b><span>شريط أصفر مكتوب عليه "أول إيد" على كل كرتونة بتخرج من المحل. بيظهر في الفيديو، وبيروح مع العميل البيت.</span></div>
+      <div class="b-el" data-anim="rise"><i>04 · CLOSE</i><b>"العداد بيبدأ معاك… يبقى انت في الأمان"</b><span>جملة القفلة الثابتة على لسان الحاج محمد في آخر كل فيديو.</span></div>
+      <div class="b-el" data-anim="rise" data-d="60"><i>05 · RITUAL</i><b>"مبروك أول إيد يا بشمهندس"</b><span>طقس التسليم: الجملة دي بتتقال لكل عميل، ومعاها صورة بالكرتونة والشريط الأصفر.</span></div>
+      <div class="b-el" data-anim="rise" data-d="120"><i>06 · FRAME</i><b>الإطار المترقّم</b><span>كل ريل جوه نفس الإطار الكحلي: هوك قصير فوق الفيديو، وتحته "أول إيد · رقم 07". الرقم بيزيد مع كل حلقة.</span></div>
+    </div>
+
+    <div class="b-mocks">
+      <figure class="b-phone" data-anim="rise">
+        <div class="b-top">البياع قالك جديد؟<br><em>اسأله السؤال ده</em></div>
+        <div class="b-vid">
+          <div class="b-box"><div class="b-boxtape">أول إيد</div></div>
+        </div>
+        <div class="b-bot"><span>أول إيد</span><b>رقم <span class="num" data-count="7">7</span></b></div>
+        <figcaption>الإطار المترقّم: هوك فوق، والرقم تحت</figcaption>
+      </figure>
+      <figure class="b-phone b-end" data-anim="rise" data-d="120">
+        <div class="b-endin">
+          <img src="img/logo.png" alt="">
+          <p>الصحوة · <em>أول إيد</em></p>
+          <small>العداد بيبدأ معاك… يبقى انت في الأمان</small>
+          <div class="b-endtape">#أول_إيد</div>
+        </div>
+        <figcaption>الإند كارد: آخر 2 ثانية في كل ريل</figcaption>
+      </figure>
+      <div class="b-cast">
+        <h3>الشخصيات الثابتة</h3>
+        <div class="b-person" data-anim="rise"><b>الحاج محمد</b><span>الخبرة والوش. نفس القعدة على كاونتر E-Zone ونفس الهيئة في كل فيديو. جملته: "بتعمل إيه عليه؟ ومعاك كام؟"</span></div>
+        <div class="b-person" data-anim="rise" data-d="60"><b>البياع الشاب · نور</b><span>المتحمس اللي لسه بيتعلم، واللي بيوقع في المواقف. هو اللي بيعمل الضحك، والحاج محمد هو اللي بيقفل. (نور، أو حد من فريق الصحوة)</span></div>
+        <div class="b-person" data-anim="rise" data-d="120"><b>العميل</b><span>البطل الحقيقي. وشه وهو بيفتح الختم هو أقوى لقطة عندنا.</span></div>
+        <p class="src" style="margin-top:12px">لحظة أول إيد اليومية محتاجة حد موجود في المحل كل يوم. لو نور مش من فريق المحل، يبقى هو في السيتكوم، وحد من الفريق في اليومي.</p>
+      </div>
+    </div>
+
+    <h3 class="b-sub">قاموس أول إيد · الجمل اللي هتتكرر</h3>
+    <p class="lead" style="margin-top:4px">جمل قصيرة ثابتة بتتقال بنفس الكلمات كل مرة. التكرار هو اللي بيحوّلها لكلام الناس.</p>
+    <div class="lex">
+      <div data-anim="rise"><b>"أول إيد… والختم بيتفتح قدامك"</b><span>افتتاحية أي فيديو تسليم</span></div>
+      <div data-anim="rise" data-d="40"><b>"العداد بيبدأ معاك… يبقى انت في الأمان"</b><span>قفلة كل ريل</span></div>
+      <div data-anim="rise" data-d="80"><b>"مبروك أول إيد يا بشمهندس"</b><span>كل تسليم، من غير استثناء</span></div>
+      <div data-anim="rise"><b>"معاك كام؟ الحاج محمد مطلعلك 3… اختار"</b><span>فورمات الميزانية</span></div>
+      <div data-anim="rise" data-d="40"><b>"اكتب ميزانيتك ومجالك… والحاج يرد عليك بفيديو"</b><span>الـ CTA في الكابشن والكومنتات</span></div>
+      <div data-anim="rise" data-d="80"><b>"أكتر ختم اتفتح الشهر ده"</b><span>بدل "الأكثر مبيعاً"</span></div>
+      <div data-anim="rise"><b>"يشيل 4 سنين كلية من غير ما يشتكي"</b><span>بنبالغ في الاستخدام، مش في المواصفات</span></div>
+      <div data-anim="rise" data-d="40"><b>"السعر ثابت لحد ما الكرتونة تخلص"</b><span>عروض الكمية المحدودة</span></div>
+      <div data-anim="rise" data-d="80"><b>"أرخص [ماركة] أول إيد في المول"</b><span>هوك للأجهزة الاقتصادية</span></div>
+      <div data-anim="rise"><b>"ملك رينج الـ 30"</b><span>لقب لأقوى جهاز في كل ميزانية</span></div>
+      <div data-anim="rise" data-d="40"><b>"مش كل جديد… أول إيد"</b><span>سلسلة التوعية</span></div>
+      <div data-anim="rise" data-d="80" class="lex-nick"><b>"الطيارة" · "التقيل" · "حبيب الطلبة" · "رفيق المهندس"</b><span>ألقاب ثابتة لأجهزة البطل، عشان العميل يطلب الجهاز باسمه</span></div>
+    </div>
+
+    <h3 class="b-sub">7 فورمات ريلز ثابتة</h3>
+    <p class="lead" style="margin-top:4px">كل فورمات له اسم ورقم حلقة، عشان المتابع يستنى الحلقة الجاية. الريلز الخمسة المتصورة في الخطة دي بتنزل جوه الفورمات دي.</p>
+    <div class="fmts">
+      <article class="fmt" data-anim="rise">
+        <div class="fh"><span class="num">01</span><i class="tag y">DAILY · 15s</i></div>
+        <h3>لحظة أول إيد</h3>
+        <p>مع كل بيعة: العميل بيقطع الختم، صوت البرشامة، والشريط الأصفر، و"مبروك أول إيد يا بشمهندس". بيتصور بالموبايل في دقيقة.</p>
+        <div class="fhook">"أول إيد رقم 12 النهارده… مبروك يا بشمهندس"</div>
+      </article>
+      <article class="fmt" data-anim="rise" data-d="60">
+        <div class="fh"><span class="num">02</span><i class="tag y">WEEKLY</i></div>
+        <h3>معاك كام؟</h3>
+        <p>ميزانية واحدة، والحاج محمد بيطلّع 3 أجهزة أول إيد ويقول كل واحد ينفع لمين. الناس تكتب ميزانيتها في الكومنتات، والحلقة الجاية ترد عليهم.</p>
+        <div class="fhook">"معاك 25 ألف؟ استنى… دول أول إيد اللي يستاهلوا"</div>
+      </article>
+      <article class="fmt" data-anim="rise" data-d="120">
+        <div class="fh"><span class="num">03</span><i class="tag y">WEEKLY · TRUST</i></div>
+        <h3>مش كل جديد… أول إيد</h3>
+        <p>سلسلة توعية: الحاج محمد بيوري الناس إزاي يكشفوا الجهاز اللي اتفتح قبل كده، من العداد والختم وتاريخ تفعيل الضمان. بنعلّم الناس، والصحوة هي اللي بتعدي الاختبار.</p>
+        <div class="fhook">"قالك جديد؟ اسأله السؤال ده قبل ما تدفع"</div>
+      </article>
+      <article class="fmt" data-anim="rise">
+        <div class="fh"><span class="num">04</span><i class="tag y">BI-WEEKLY · SKIT</i></div>
+        <h3>سيتكوم الصحوة</h3>
+        <p>الحاج محمد ونور جوه المحل: موقف يومي، وقفلة محدش يتوقعها، والجهاز هو الحل. كل حلقة فيها جملة ثابتة بتتكرر. حلقات: زبون ChatGPT، زبون بيفاصل بسكرين شوت، نور بيبيع لوحده لأول مرة، أم جاية تشتري لابن داخل الجامعة.</p>
+        <div class="fhook">"نور… سيب الزبون للحاج"</div>
+      </article>
+      <article class="fmt" data-anim="rise" data-d="60">
+        <div class="fh"><span class="num">05</span><i class="tag y">MONTHLY</i></div>
+        <h3>اعترافات بياع لابتوبات</h3>
+        <p>الحاج محمد بيعترف للكاميرا بحاجة غريبة، والآخر بيطلع اعتراف لصالح العميل. فضول في البداية، وثقة في الآخر.</p>
+        <div class="fhook">"أنا بخسر زباين كل يوم… وهقولك ليه"</div>
+      </article>
+      <article class="fmt" data-anim="rise" data-d="120">
+        <div class="fh"><span class="num">06</span><i class="tag y">MONTHLY · ANTI-AD</i></div>
+        <h3>إعلان مش إعلان</h3>
+        <p>من غير موسيقى ولا مؤثرات: الكاميرا ثابتة على كرتونة، وإيد بتقطع الختم، وخلاص. هدوء بيكسر السكرول وسط الإعلانات العالية.</p>
+        <div class="fhook">"مش هنعمل إعلان النهارده… هنفتح كرتونة وخلاص"</div>
+      </article>
+      <article class="fmt" data-anim="rise">
+        <div class="fh"><span class="num">07</span><i class="tag y">GAME</i></div>
+        <h3>أول إيد ولا تاني إيد؟</h3>
+        <p>جهازين قدام الكاميرا، والمتابعين يخمّنوا في الكومنتات مين اللي اتفتح قبل كده. الإجابة في الحلقة الجاية، والعداد هو الحكم.</p>
+        <div class="fhook">"واحد فيهم اتفتح قبل كده… تعرف مين؟"</div>
+      </article>
+    </div>
+
+    <div class="b-wf" data-anim="rise">
+      <div>
+        <div class="eyebrow" style="color:var(--yellow)"><b>WHITE FRIDAY</b> UNDER THE LINE</div>
+        <h3>جمعة <em>أول إيد</em></h3>
+        <p>اسم ثابت للعرض نملكه إحنا بدل "الجمعة البيضاء" اللي الكل بيقولها. المفاصلة فاضلة زي ما هي، والعروض بتنزل مترقّمة.</p>
+      </div>
+      <ul>
+        <li><b>أول إيد رقم 1 → 10</b>عرض واحد في اليوم من 18 لـ 27 نوفمبر. كل عرض له رقم، والمتابع يستنى اللي بعده.</li>
+        <li><b>أول 10 إيدين</b>أول 10 عملاء على كل جهاز في العرض ليهم هدية أو أولوية استلام (بموافقة الإدارة).</li>
+        <li><b>Giveaway واحد بس</b>لايك وكومنت ومنشن لصاحب، على إكسسوار (ماوس أو سماعة). ده اللي بيجيب كومنتات بجد، فنعمله مرة واحدة في الأسبوع الأخير.</li>
+        <li><b>هدية بتتضاعف</b>لو الإدارة تقدر: SSD أو رام ضعف مع أجهزة معينة. "أول إيد… والهدية ضعف".</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
 <!-- VIDEOS -->
 <section class="navy" id="videos">
   <div class="wrap">
-    <div class="eyebrow"><b>04</b> VIDEO BRIEFS</div>
+    <div class="eyebrow"><b>05</b> VIDEO BRIEFS</div>
     <h2>6 أفكار فيديو، ولكل فكرة ريفرنس حقيقي</h2>
     <p class="lead">5 منهم ريلز هنصورها في يومين تصوير، والسادسة (التسليم) فورمات ثابت بيتصور بالموبايل مع كل بيعة. الأرقام اللي على الريفرنسات من الصفحات نفسها يوم 1 نوفمبر.</p>
 
@@ -570,7 +770,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 <!-- DESIGN -->
 <section class="paper" id="design">
   <div class="wrap">
-    <div class="eyebrow"><b>05</b> DESIGN BRIEF</div>
+    <div class="eyebrow"><b>06</b> DESIGN BRIEF</div>
     <h2>من القالب الأصفر لنظام بيفرّق بين الأجهزة</h2>
     <p class="lead">بنحتفظ بالكحلي والأصفر من اللوجو، بس الأصفر بقى إشارة بس: السعر، والكلمة المهمة، وضوء خفيف حوالين الجهاز. عندنا 5 قوالب، كل قالب ليه وظيفة. وكل قالب جاهز كملف PNG بمكان فاضي لصورة المنتج، ومعاه نسخة مثال. الأجهزة والأسعار اللي في الأمثلة للتوضيح بس.</p>
     <div class="tgrid">
@@ -630,7 +830,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 <!-- CALENDAR -->
 <section class="paper" id="calendar" style="background:var(--paper2)">
   <div class="wrap">
-    <div class="eyebrow"><b>06</b> CONTENT CALENDAR</div>
+    <div class="eyebrow"><b>07</b> CONTENT CALENDAR</div>
     <h2>30 بوست لـ 30 يوم في نوفمبر</h2>
     <p class="lead">20 تصميم و5 ريلز و5 لحظات حقيقية (صور تسليم، وتقييمات، وزحمة الفرع). الأيام اللي تحتها خط غامق هي أيام تصوير، والمتعلم بالأصفر أسبوع الجمعة البيضاء.</p>
     <div class="filters" role="group" aria-label="فلتر نوع البوست">
@@ -649,7 +849,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 <!-- ADS -->
 <section id="ads">
   <div class="wrap">
-    <div class="eyebrow"><b>07</b> META ADS</div>
+    <div class="eyebrow"><b>08</b> META ADS</div>
     <h2>إعلانات رسايل بـ 10,000 جنيه</h2>
     <p class="lead">البيع بيتقفل في الفرع، فهدف الإعلانات إنها تجيب محادثة تتحول لزيارة. والأرقام مبنية على خبرتنا في حملات رسايل لمحلات إلكترونيات في نفس المول.</p>
     <div class="adgrid">
@@ -705,8 +905,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 <!-- SHOOT + NEEDS -->
 <section class="paper" id="shoot">
   <div class="wrap">
-    <div class="eyebrow"><b>08</b> PRODUCTION</div>
-    <h2>يومين تصوير، و6 حاجات محتاجينها منكم</h2>
+    <div class="eyebrow"><b>09</b> PRODUCTION</div>
+    <h2>يومين تصوير، و7 حاجات محتاجينها منكم</h2>
     <div class="two" style="margin-top:26px">
       <div class="box" data-anim="rise">
         <div class="d">MON NOV 2 · E-ZONE</div>
@@ -739,6 +939,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
           <li>هدية لعبة "خمّن السعر" (شنطة أو ماوس)، وتنسيق مكان في ساحة E-Zone يوم 20.</li>
           <li>صلاحيات الصفحات ورقم WhatsApp Business للإعلانات.</li>
           <li>اسم الشخص اللي هيرد على الرسايل في الفرعين، وتأكيد شروط الضمان المكتوبة.</li>
+          <li>البياع الشاب (نور أو حد من الفريق)، وشريط "أول إيد" الأصفر للكراتين، وموافقة على هدية "أول 10 إيدين".</li>
         </ol>
       </div>
       <div class="box" data-anim="rise" data-d="80">
@@ -835,6 +1036,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   function play(el){var d=+(el.dataset.d||0),a=el.dataset.anim;
     if(a==='rise')rise(el,d);
     if(a==='phases'){var f=el.querySelector('.fill');if(f)grow(f,100,1600);el.querySelectorAll('.ph').forEach(function(p,i){rise(p,250+i*200)})}
+    if(a==='tape')el.animate([{transform:'rotate(-4deg) scaleX(0)'},{transform:'rotate(-4deg) scaleX(1)'}],{duration:900,delay:200,easing:E,fill:'backwards'});
     if(a==='stack')el.querySelectorAll('i').forEach(function(s,i){grow(s,i*220,800)});
     el.querySelectorAll('[data-bar]').forEach(function(b,i){grow(b,250+i*160)});
     el.querySelectorAll('[data-count]').forEach(count);}
